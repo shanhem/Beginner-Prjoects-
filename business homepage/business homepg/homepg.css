@@ -1,0 +1,72 @@
+.body{
+    font-family: 'Inter', monospace;
+    background: hsl(233, 47%, 7%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container
+{    width: 70rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: row;
+    background: hsl(244, 38%, 16%);
+    margin: 6rem 5rem 6rem 5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.image
+{
+    color: hsl(0, 0%, 0%);
+border-radius: 0.5rem;
+}
+.information
+{
+    display: flex;
+flex-direction: column;
+padding: 4rem;
+margin-right: 3rem;
+margin-left: 1rem;
+    
+}
+
+.span
+{
+    color: hsl(277, 64%, 61%);
+}
+
+p{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+    margin-top: 1.5rem;
+}
+.stats
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+    margin-top: 4.5rem;
+}
+
+.stat
+{
+    font-family: 'Lexend Deca', monospace;
+font-size: 12px;
+letter-spacing: 1.5px;
+color: hsla(0, 0%, 100%, 0.6);
+}
+
+.image
+{
+background-color: hsla(277, 64%, 61%);
+background-image: url('./images/image-header-desktop.jpg');
+background-size: cover;
+background-blend-mode: multiply;
+background-position: center;
+}
