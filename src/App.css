@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+	
+	font-family: 'Press Start 2P', cursive;
+	background: linear-gradient(-45deg,#abc9d5,#9a9acb,#b96fbd,#ca947f);
+	background-size:400% 400%;
+	animation: changes 10s ease-in-out infinite;
+	
+
+ }
+
+	
+
+ @keyframes changes{
+	 
+ 0%{background-position: 100% 50%;}
+ 
+ 50%{background-position: 0% 50%;}
+ 
+ 100%{background-position: 100% 50%;}
+ 
+ 
+ 
+ }
+
+
+
+
+.playArea {
+	border: 5px solid transparent;
+	width: 585px;
+	background-color:white;
+	height: 440px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: index 50;
+	box-shadow: 0px 0px 25px 25px rgb(0, 0, 0);
+
+	transform: translate(-50%, -50%);
+  box-shadow: 0px 5px 15px 0px rgb(45, 48, 43);
+  
+}
+
+#fruit {
+	display: none;
+}
+
+
+
+
+.gameOver {
+	position: fixed;
+	top: 50.2%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:#bd1d1d;
+	font-size: 35px;
+  background:transparent;
+  transition: visbility 0s,opacity 0.5s linear;
+ 
+}
+.playButton {
+	position: fixed;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	background: #012363;
+	border: 2px solid rgb(0, 0, 0);
+	padding: 10px;
+	font-size : 0.9em;
+	color: white;
+	box-shadow: 2px 2px 0px 0px rgb(0, 0, 0);
+	font-family: 'Press Start 2P', cursive;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	transition: 0.85s ease-out;
+	background: linear-gradient(to right,rgb(87, 61, 61),#2f00a6,#7a19b6);
+	background-size: 200%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+
+.playButton:hover{
+	background-position: -100%;
+
+}
+div>ul{
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s,opacity 0.9s linear;
+
+}
+div:hover>ul{
+	visibility: visible;
+  opacity: 1;
+}
+
+.scoreBox {
+	float: right;
+	margin: 10px;
+	/* border: 1px solid black; */
+	margin-top: 1px;
+	
+  box-shadow: 0px 2px 10px 2px rgb(0, 0, 0);
+
+}
+
+h2 {
+  color: #012363;
+	font-size: 18px;
+	padding: 10px;
+	transition: 1s ease-out;
+	background: linear-gradient(to right,rgb(87, 61, 61),#2f00a6,#7a19b6);
+	background-size: 200%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+h2:hover{
+	background-position: -100%;
+}
+
+h1:hover{
+	background-position: -100%;
+
+}
+
+h1{
+	margin:20px;
+	margin-top:15px;
+	color: #012363;
+	font-size: 25px;
+	letter-spacing: 2.5px;
+	font-style: italic;
+	font-weight: bold;
+	transition: 2s ease-out;
+	background: linear-gradient(to right,rgb(87, 61, 61),#2f00a6,#7a19b6);
+	background-size: 200%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+
